@@ -13,7 +13,8 @@ This is the backend for the "My React Projects" application. It is built using N
     - [1. Initialize the Project](#1-initialize-the-project)
     - [2. Install Dependencies](#2-install-dependencies)
     - [3. Configure Environment Variables](#3-configure-environment-variables)
-    - [4. Start the Server](#4-start-the-server)
+    - [4. Added a `.gitignore` File](#4-added-a-gitignore-file)
+    - [5. Start the Server](#5-start-the-server)
   - [API Endpoints](#api-endpoints)
     - [Products](#products)
   - [Testing](#testing)
@@ -80,7 +81,22 @@ Create a `.env` file in the `backend` directory and add the following:
 MONGO_URI=<your-mongodb-connection-string>
 ```
 
-### 4. Start the Server
+### 4. Added a `.gitignore` File
+
+Create a `.gitignore` file in the root directory to exclude unnecessary files and directories from version control. The file should include:
+
+```
+node_modules/
+.env
+logs/
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+```
+
+### 5. Start the Server
 
 Add the following script to your `package.json` file:
 
