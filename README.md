@@ -15,6 +15,13 @@ This is the backend for the "My React Projects" application. It is built using N
     - [3. Configure Environment Variables](#3-configure-environment-variables)
     - [4. Added a `.gitignore` File](#4-added-a-gitignore-file)
     - [5. Start the Server](#5-start-the-server)
+  - [Frontend Setup](#frontend-setup)
+    - [1. Initialize the Frontend](#1-initialize-the-frontend)
+    - [2. Install Chakra UI](#2-install-chakra-ui)
+    - [3. Install Additional Dependencies](#3-install-additional-dependencies)
+      - [React Router DOM](#react-router-dom)
+      - [React Icons](#react-icons)
+      - [Chakra UI Icons](#chakra-ui-icons)
   - [API Endpoints](#api-endpoints)
     - [Products](#products)
   - [Testing](#testing)
@@ -116,6 +123,94 @@ The server will start at `http://localhost:5000`.
 
 ---
 
+## Frontend Setup
+
+### 1. Initialize the Frontend
+
+Navigate to the `frontend` directory and create a new React project using Vite:
+
+```bash
+cd ./frontend/
+npm create vite@latest .
+```
+
+Follow the prompts:
+
+- **Select a framework**: React
+- **Select a variant**: JavaScript
+
+Once the scaffolding is complete, install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+### 2. Install Chakra UI
+
+Install Chakra UI and its dependencies:
+
+```bash
+npm i @chakra-ui/react@2 @emotion/react @emotion/styled framer-motion
+```
+
+Wrap your application with the `ChakraProvider` in `main.jsx`:
+
+```jsx
+// filepath: c:\Users\Sergiy\Desktop\My-React-Projects\frontend\src\main.jsx
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import { ChakraProvider } from '@chakra-ui/react';
+
+createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
+  </React.StrictMode>,
+);
+```
+
+### 3. Install Additional Dependencies
+
+#### React Router DOM
+
+Install `react-router-dom` for routing:
+
+```bash
+npm i react-router-dom
+```
+
+Documentation: [React Router DOM](https://reactrouter.com/)
+
+#### React Icons
+
+Install `react-icons` for using popular icons:
+
+```bash
+npm i react-icons
+```
+
+Documentation: [React Icons](https://react-icons.github.io/react-icons/)
+
+#### Chakra UI Icons
+
+Install `@chakra-ui/icons` for Chakra-specific icons:
+
+```bash
+npm i @chakra-ui/icons
+```
+
+Documentation: [Chakra UI Icons](https://v2.chakra-ui.com/docs/components/icon/usage)
+
+---
+
 ## API Endpoints
 
 ### Products
@@ -158,3 +253,4 @@ This project is currently set up for local development. Deployment instructions 
 - **Code Institute**: For providing the README template.
 - **MongoDB Documentation**: For database setup and integration.
 - **Postman**: For API testing.
+
