@@ -23,6 +23,7 @@ This is the backend for the "My React Projects" application. It is built using N
       - [React Router DOM](#react-router-dom)
       - [React Icons](#react-icons)
       - [Chakra UI Icons](#chakra-ui-icons)
+      - [Zustand](#zustand)
   - [API Endpoints](#api-endpoints)
     - [Products](#products)
   - [Testing](#testing)
@@ -209,6 +210,16 @@ npm i @chakra-ui/icons
 ```
 
 Documentation: [Chakra UI Icons](https://v2.chakra-ui.com/docs/components/icon/usage)
+
+#### Zustand
+
+Install `zustand` for state management in the Create Page implementation:
+
+```bash
+npm i zustand
+```
+
+Documentation: [Zustand](https://github.com/pmndrs/zustand)
 
 ---
 
