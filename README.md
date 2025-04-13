@@ -24,6 +24,7 @@ This is the backend for the "My React Projects" application. It is built using N
       - [React Icons](#react-icons)
       - [Chakra UI Icons](#chakra-ui-icons)
       - [Zustand](#zustand)
+    - [Home Page](#home-page)
   - [API Endpoints](#api-endpoints)
     - [Products](#products)
   - [Testing](#testing)
@@ -220,6 +221,11 @@ npm i zustand
 ```
 
 Documentation: [Zustand](https://github.com/pmndrs/zustand)
+
+### Home Page
+- Displays current products with real-time updates.
+- Implements CRUD operations using React, Zustand, and Chakra UI.
+- Fetches products from the API and renders each using the ProductCard component.
 
 ---
 
