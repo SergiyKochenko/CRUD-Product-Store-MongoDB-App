@@ -3,6 +3,8 @@
 
 This is the backend for the "My React Projects" application. It is built using Node.js, Express, and MongoDB.
 
+**Live Site:** [https://crud-mongodb-app.onrender.com/](https://crud-mongodb-app.onrender.com/)
+
 ## Table of Contents
 
 - [My React Projects - Backend and Frontend](#my-react-projects---backend-and-frontend)
@@ -31,6 +33,7 @@ This is the backend for the "My React Projects" application. It is built using N
     - [Postman](#postman)
   - [Deployment](#deployment)
   - [Credits](#credits)
+- [CRUD-Product-Store-MongoDB-App](#crud-product-store-mongodb-app)
 
 ---
 
@@ -262,7 +265,33 @@ The API was tested using Postman. Below are the steps to test the API:
 
 ## Deployment
 
-This project is currently set up for local development. Deployment instructions can be added later if required.
+This application is deployed on Render. Follow these steps to deploy your own instance:
+
+1.  **Sign up/Log in:** Go to [Render.com](https://render.com/) and create an account or log in.
+2.  **Create a New Web Service:**
+    *   From your dashboard, click "New +" and select "Web Service".
+    *   Connect your GitHub account and select the repository for this project.
+3.  **Configure Settings:**
+    *   **Name:** Choose a name for your service (e.g., `crud-mongodb-app`).
+    *   **Region:** Select a region close to you or your users.
+    *   **Branch:** Choose the branch to deploy (e.g., `main`).
+    *   **Root Directory:** Leave blank if `package.json` is in the root, otherwise specify the path (e.g., `backend`). *Correction: Based on your `package.json`, the root directory should likely be left blank as build/start commands reference `backend/` and `frontend/`.* 
+    *   **Runtime:** Select `Node`.
+    *   **Build Command:** `npm run build` (This command installs dependencies for both backend and frontend, then builds the frontend).
+    *   **Start Command:** `npm run start` (This command starts the production server).
+4.  **Add Environment Variables:**
+    *   Click on the "Environment" tab.
+    *   Add the following environment variables:
+        *   `MONGO_URI`: Your MongoDB connection string (e.g., `mongodb+srv://<user>:<password>@cluster0.xtlwqx0.mongodb.net/products?retryWrites=true&w=majority&appName=Cluster0`). **Make sure to replace `<user>` and `<password>` with your actual credentials.**
+        *   `NODE_ENV`: Set this to `production`.
+        *   `PORT`: Render sets this automatically, but you can set it if needed (e.g., `10000`). Your application uses `process.env.PORT || 5000`, so it should work fine with Render's provided port.
+5.  **Deploy:**
+    *   Click "Create Web Service". Render will start building and deploying your application.
+    *   Monitor the deploy logs for any errors.
+
+**Live URL:**
+
+The deployed application can be accessed at: [https://crud-mongodb-app.onrender.com/](https://crud-mongodb-app.onrender.com/)
 
 ---
 
@@ -272,3 +301,4 @@ This project is currently set up for local development. Deployment instructions 
 - **MongoDB Documentation**: For database setup and integration.
 - **Postman**: For API testing.
 
+# CRUD-Product-Store-MongoDB-App
