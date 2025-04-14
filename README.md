@@ -5,10 +5,12 @@ This is the backend for the "My React Projects" application. It is built using N
 
 **Live Site:** [https://crud-mongodb-app.onrender.com/](https://crud-mongodb-app.onrender.com/)
 
-# Amiresponsive - "CRUD MongoDB Product Store App".
+<h2>Amiresponsive - CRUD MongoDB Product Store App</h2>
 
-![Amiresponsive](<img src="https://i.ibb.co/DPPsTHZy/Screenshot-1.png" alt="Amiresponsive - CRUD MongoDB Product Store App" style="width:100%;">
-)
+<p align="center">
+  <img src="https://i.ibb.co/DPPsTHZy/Screenshot-1.png" alt="Amiresponsive - CRUD MongoDB Product Store App" style="width:100%; max-width:1000px; height:auto; border:1px solid #ccc; border-radius:8px;" />
+</p>
+
 
 
 ## Table of Contents
