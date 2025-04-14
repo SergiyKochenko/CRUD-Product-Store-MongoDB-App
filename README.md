@@ -7,7 +7,8 @@ This is the backend for the "My React Projects" application. It is built using N
 
 # Amiresponsive - "CRUD MongoDB Product Store App".
 
-![Amiresponsive](https://i.ibb.co/DPPsTHZy/Screenshot-1.png)
+![Amiresponsive](<img src="https://i.ibb.co/DPPsTHZy/Screenshot-1.png" alt="Amiresponsive - CRUD MongoDB Product Store App" style="width:100%;">
+)
 
 
 ## Table of Contents
