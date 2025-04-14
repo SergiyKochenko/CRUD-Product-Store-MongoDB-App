@@ -8,8 +8,9 @@ This is the backend for the "My React Projects" application. It is built using N
 <h2 align="center">CRUD MongoDB Product Store App</h2>
 
 <p align="center">
-  <img src="https://your-clean-screenshot-url.jpg" alt="CRUD MongoDB Product Store App Screenshot" style="width:100%; max-width:1000px; height:auto;" />
+  <img src="https://your-new-uploaded-image-link.jpg" alt="CRUD MongoDB Product Store App Screenshot" style="width:100%; max-width:1000px; height:auto;" />
 </p>
+
 
 
 
