@@ -5,15 +5,11 @@ This is the backend for the "My React Projects" application. It is built using N
 
 **Live Site:** [https://crud-mongodb-app.onrender.com/](https://crud-mongodb-app.onrender.com/)
 
-<h2 align="center">CRUD MongoDB Product Store App</h2>
+<h2>CRUD MongoDB Product Store App</h2>
 
-<p align="center">
-  <img src="https://your-new-uploaded-image-link.jpg" alt="CRUD MongoDB Product Store App Screenshot" style="width:100%; max-width:1000px; height:auto;" />
+<p align="center" style="background-color:#222; padding:10px; border-radius:10px;">
+  <img src="https://i.ibb.co/DPPsTHZy/Screenshot-1.png" alt="Amiresponsive - CRUD MongoDB Product Store App" style="width:100%; max-width:1000px; height:auto;" />
 </p>
-
-
-
-
 
 ## Table of Contents
 
