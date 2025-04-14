@@ -1,4 +1,4 @@
-# My React Projects - Backend and Frontend
+# React Projects - Backend and Frontend
 - This project includes both the backend and frontend components for the "My React Projects" application. The backend is built using Node.js, Express, and MongoDB, while the frontend is built with React using Vite and styled with Chakra UI.
 
 This is the backend for the "My React Projects" application. It is built using Node.js, Express, and MongoDB.
