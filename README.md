@@ -1,3 +1,5 @@
+# CRUD-Product-Store-MongoDB-App
+
 # React Projects - Backend and Frontend
 - This project includes both the backend and frontend components for the "My React Projects" application. The backend is built using Node.js, Express, and MongoDB, while the frontend is built with React using Vite and styled with Chakra UI.
 
@@ -13,6 +15,7 @@ This is the backend for the "My React Projects" application. It is built using N
 
 ## Table of Contents
 
+- [CRUD-Product-Store-MongoDB-App](#crud-product-store-mongodb-app)
 - [React Projects - Backend and Frontend](#react-projects---backend-and-frontend)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
@@ -39,7 +42,6 @@ This is the backend for the "My React Projects" application. It is built using N
     - [Postman](#postman)
   - [Deployment](#deployment)
   - [Credits](#credits)
-- [CRUD-Product-Store-MongoDB-App](#crud-product-store-mongodb-app)
 
 ---
 
@@ -306,5 +308,3 @@ The deployed application can be accessed at: [https://crud-mongodb-app.onrender.
 - **Code Institute**: For providing the README template.
 - **MongoDB Documentation**: For database setup and integration.
 - **Postman**: For API testing.
-
-# CRUD-Product-Store-MongoDB-App
